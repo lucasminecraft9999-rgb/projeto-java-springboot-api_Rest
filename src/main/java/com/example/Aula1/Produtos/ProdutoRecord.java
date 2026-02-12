@@ -8,7 +8,5 @@ public record ProdutoRecord(
         @NotNull
         Long id,
          String nome,
-         Double preco,
-        Integer quantidade,
-        String descricao
+        String fabricante
 ) { }
